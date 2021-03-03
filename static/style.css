@@ -1,0 +1,33 @@
+p {
+    color: white;
+    background-color: #7893f5;
+    padding: 10px;
+    font-family: 'MP Manga Font Bold', sans-serif;
+}
+
+p1 {
+    color: black;
+    background-color: coral;
+    padding: 10px;
+    font-family: 'MP Manga Font Bold', sans-serif;
+}
+
+p2 {
+    color: white;
+    background-color: #f5699c;
+    padding: 30px;
+    font-family: 'MP Manga Font Bold', sans-serif;
+}
+
+p3 {
+    color: white;
+}
+
+nav ul {
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
