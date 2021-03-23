@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <title>Тевирп</title>
+    <title>{{ title }}</title>
     <link rel="stylesheet" href="/static/style.css">
     <style>
         nav ul {
@@ -19,21 +19,23 @@
 </head>
 <body>
 
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #cce7fc;">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" style="background-color: #0468b3;">
   <div class="d-flex bd-highlight">
-    <div class="p-2 flex-shrink-1 bd-highlight"><img src="/static/cat.jpg" alt="" width="50" height="44"></div>
-    <div class="p-2 w-100 bd-highlight">Flex item 2</div>
-    <!--<ul class="navbar-nav">
+    <div class="p-2 flex-shrink-1 bd-highlight"><img src="/static/cat.jpg" alt="" width="55" height="49"></div>
+    <ul class="navbar-nav">
         <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="/">Главная</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" href="index2.html">About us</a>
+            <a class="nav-link active" aria-current="page" href="/a">Каталог</a>
         </li>
-    </ul>-->
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index2.html">Контакты</a>
+        </li>
+    </ul>
   </div>
 </nav>
-
+<!--
 <header>
     <nav>
         <ul>
@@ -42,13 +44,16 @@
         </ul>
     </nav>
 </header>
+-->
 <p>
-    Сайт хорошего настроения! <br>
+    Всем бобра и тепла! <br>
 </p>
 <h1>
-    Простой сайт, где можно что-то выбрать. Я не знаю что тут еще писать <br>
-    <iframe src="https://gifer.com/embed/NR8C" width=300 height=400.000></iframe>
+    Тут можно что-то приобрести, например авторские рисунки.<br>
+    Я не знаю что еще написать :) <br>
 </h1>
+<iframe src="https://gifer.com/embed/NR8C" width=300 height=400.000></iframe>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossorigin="anonymous"></script>
